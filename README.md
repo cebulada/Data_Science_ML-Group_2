@@ -42,13 +42,13 @@
 
 ## Project Objectives
 
-- Collaborate with peers to develop a working predictive or clustering model.
-- Work in a group setting to complete a challenge within an agreed-upon time frame.
-- Engage with peers to discover their problem-solving process and lessons learned.
-- Carry out the entire modelling process from end to end.
-- Recognize the relative strengths of alternative modelling methods.
-- Evaluate the performance of alterative modelling methods.
-- Hone skills in explaining technical details to a non-technical audience.
+- 1. Collaborate with peers to develop a working predictive or clustering model.
+- 2. Work in a group setting to complete a challenge within an agreed-upon time frame.
+- 3. Engage with peers to discover their problem-solving process and lessons learned.
+- 4. Carry out the entire modelling process from end to end.
+- 5. Recognize the relative strengths of alternative modelling methods.
+- 6. Evaluate the performance of alterative modelling methods.
+- 7. Hone skills in explaining technical details to a non-technical audience.
 
 ## Project Outline for Data Analysis
 
@@ -56,4 +56,4 @@
 - 2. Data Preparation: What was your data source (e.g., web scraping, corporate data, a standard machine learning data set, open data, etc.)? How good was the data quality? What did you need to do to procure it? What tools or code did you need to use to prepare it for analysis? What challenges did you face?
 - 3. Model Design: Describe your (two or more) models. How did you choose hyperparameters if they were required? Why did you choose those particular machine learning models?
 - 4. Model Evaluation: How well did the model perform on the set-aside testing dataset? If you attempted an ensemble model how did it perform vs. the individual models in the ensemble?
-5. Conclusions: Did you prove/disprove your hypothesis or create a useful model? What did you learn about your dataset? What would you do next to improve your model?
+- 5. Conclusions: Did you prove/disprove your hypothesis or create a useful model? What did you learn about your dataset? What would you do next to improve your model?
