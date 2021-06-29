@@ -10,16 +10,50 @@
 
 ## Group Topic
 
-- TBD
+- Create a machine learning model classifying Toronto Transit Commission (TTC) Subway, Bus and Streetcar Delays (from a period of 2014 - 2016) using Historical Toronto Weather Data Temporally (from a period of 2014 - 2016) and Toronto Residential House / Condos / Apartments sold house prices (during 2016) spatially.
+- The data will undergo Dimensionality Reduction through Principal Component Analysis (PCA) and other methods and will be fed through a Pipeline into a variety of regression Machine Learning Algorithms.
+- The best performing Machine Learning Algorithms will form an ensemble to better predict Subway, Bus and Streetcar Delays temporally and spatially.
+
+## Data Source Links
+
+- 1. Canadian Historical Weather
+    - [link to Web Forms](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
+    - [link to Bulk Data Download](https://drive.google.com/drive/folders/1WJCDEU34c60IfOnG4rv5EPZ4IhhW9vZH)
+- 2. House Sales in Ontario for 2016
+    - [House Sales in Ontario Kaggle Dataset](https://www.kaggle.com/mnabaee/ontarioproperties)
+- 3. Open Data Toronto TTC Datasets
+    - [Subway Delay Data](https://open.toronto.ca/dataset/ttc-subway-delay-data/)
+    - [Bus Delay Data](https://open.toronto.ca/dataset/ttc-bus-delay-data/)
+    - [Streetcar Delay Data](https://open.toronto.ca/dataset/ttc-streetcar-delay-data/)
 
 ## Type of Analysis
 
-- TBD
+- 1. Extract Load Transform (ELT) the 3 datasets into Jupyter Notebooks using Pandas
+    - data is less than 50 MB total
+    - Link the Historical Canadian Weather temporally to TTC Delay data
+    - Link the House Sales in Ontario spatially to TTC Delay data
+- 2. Perform preliminary data analysis on the combined datasets
+    - check all features for their distribution and relevance to the Delay timings
+    - make informed judgement calls on what data to slice off or transform to usable information
+- 3. Pass the data through Dimensional Reduction Algorithms as part of a pipeline to the Machine Learning Algorithms
+    - Utilize Principal Component Analysis (PCA) to reduce dimensionality
+- 4. Test several machine learning algorithms and check various hyperparameters wth grid searches
+    - combine the best performing machine learning algorithms into an ensemble to provide a better predictor of subway / bus / streetcar delays.
 
 ## Project Objectives
 
-- TBD
+- Collaborate with peers to develop a working predictive or clustering model.
+- Work in a group setting to complete a challenge within an agreed-upon time frame.
+- Engage with peers to discover their problem-solving process and lessons learned.
+- Carry out the entire modelling process from end to end.
+- Recognize the relative strengths of alternative modelling methods.
+- Evaluate the performance of alterative modelling methods.
+- Hone skills in explaining technical details to a non-technical audience.
 
 ## Project Outline for Data Analysis
 
-- TBD
+- 1. Objective: What are you setting out to prove or predict? What is the business or other problem that you are trying to address with this model?
+- 2. Data Preparation: What was your data source (e.g., web scraping, corporate data, a standard machine learning data set, open data, etc.)? How good was the data quality? What did you need to do to procure it? What tools or code did you need to use to prepare it for analysis? What challenges did you face?
+- 3. Model Design: Describe your (two or more) models. How did you choose hyperparameters if they were required? Why did you choose those particular machine learning models?
+- 4. Model Evaluation: How well did the model perform on the set-aside testing dataset? If you attempted an ensemble model how did it perform vs. the individual models in the ensemble?
+5. Conclusions: Did you prove/disprove your hypothesis or create a useful model? What did you learn about your dataset? What would you do next to improve your model?
