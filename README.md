@@ -7,6 +7,7 @@
 - 3. Daniel Adam Cebula - [Email](mailto:dacebula@uwaterloo.ca)
 - 4. Athithian Selvadurai - [Email](mailto:a6selvad@uwaterloo.ca)
 - 5. Allan Sales - [Email](mailto:asales@uwaterloo.ca)
+- 6. Aravind Kakarala - [Email](akakaral@uwaterloo.ca)
 
 ## Group Topic
 
