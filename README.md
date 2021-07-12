@@ -6,11 +6,12 @@
 - 2. McKinleigh Needham - [Email](mailto:mjneedha@uwaterloo.ca)
 - 3. Daniel Adam Cebula - [Email](mailto:dacebula@uwaterloo.ca)
 - 4. Athithian Selvadurai - [Email](mailto:a6selvad@uwaterloo.ca)
-- 5. Allan Sales - [Email](mailto:asales@uwaterloo.ca)
+- 5. Aravind Kakarala - [Email](mailto:akakaral@uwaterloo.ca)
+- 6. Allan Sales - [Email](mailto:asales@uwaterloo.ca)
 
 ## Group Topic
 
-- Create a machine learning model classifying Toronto Transit Commission (TTC) Subway, Bus and Streetcar Delays (from a period of 2014 - 2016) using Historical Toronto Weather Data Temporally (from a period of 2014 - 2016) and Toronto Residential House / Condos / Apartments sold house prices (during 2016) spatially.
+- Create a machine learning model classifying Toronto Transit Commission (TTC) Subway, Bus and Streetcar Delays (from a period of 2014 - 2019) using Historical Toronto Weather Data Temporally (from a period of 2014 - 2019) and Toronto Residential House / Condos / Apartments sold house prices (during 2016) spatially.
 - The data will undergo Dimensionality Reduction through Principal Component Analysis (PCA) and other methods and will be fed through a Pipeline into a variety of regression Machine Learning Algorithms.
 - The best performing Machine Learning Algorithms will form an ensemble to better predict Subway, Bus and Streetcar Delays temporally and spatially.
 
