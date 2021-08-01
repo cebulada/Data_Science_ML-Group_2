@@ -19,6 +19,9 @@ FINAL_DATA/
 HOLIDAY/
 TTC/
 
+# Remove Models
+Minutes_Delay_Model.joblib
+Minutes_Gap_Model.joblib
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
