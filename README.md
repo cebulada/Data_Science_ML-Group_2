@@ -11,7 +11,7 @@
 
 ## Group Topic
 
-- Create a machine learning model classifying Toronto Transit Commission (TTC) Subway, Bus and Streetcar Delays (from a period of 2014 - 2019) using Historical Toronto Weather Data Temporally (from a period of 2014 - 2019) and Toronto Residential House / Condos / Apartments sold house prices (during 2016) spatially.
+- Create a machine learning model classifying Toronto Transit Commission (TTC) Subway, Bus and Streetcar Delays (from a period of 2014 - 2019) using Historical Toronto Weather Data Temporally (from a period of 2014 - 2019).
 - The data will undergo Dimensionality Reduction through Principal Component Analysis (PCA) and other methods and will be fed through a Pipeline into a variety of regression Machine Learning Algorithms.
 - The best performing Machine Learning Algorithms will form an ensemble to better predict Subway, Bus and Streetcar Delays temporally and spatially.
 
@@ -20,19 +20,16 @@
 - 1. Canadian Historical Weather
     - [link to Web Forms](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
     - [link to Bulk Data Download](https://drive.google.com/drive/folders/1WJCDEU34c60IfOnG4rv5EPZ4IhhW9vZH)
-- 2. House Sales in Ontario for 2016
-    - [House Sales in Ontario Kaggle Dataset](https://www.kaggle.com/mnabaee/ontarioproperties)
-- 3. Open Data Toronto TTC Datasets
+- 2. Open Data Toronto TTC Datasets
     - [Subway Delay Data](https://open.toronto.ca/dataset/ttc-subway-delay-data/)
     - [Bus Delay Data](https://open.toronto.ca/dataset/ttc-bus-delay-data/)
     - [Streetcar Delay Data](https://open.toronto.ca/dataset/ttc-streetcar-delay-data/)
 
 ## Type of Analysis
 
-- 1. Extract Load Transform (ELT) the 3 datasets into Jupyter Notebooks using Pandas
+- 1. Extract Load Transform (ELT) the 2 datasets into Jupyter Notebooks using Pandas
     - data is less than 50 MB total
     - Link the Historical Canadian Weather temporally to TTC Delay data
-    - Link the House Sales in Ontario spatially to TTC Delay data
 - 2. Perform preliminary data analysis on the combined datasets
     - check all features for their distribution and relevance to the Delay timings
     - make informed judgement calls on what data to slice off or transform to usable information
